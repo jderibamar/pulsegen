@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harbitragem geral</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"></script>
+</head>
+<body>
+    <main>
+        <div class="header-container">
+            <h2>BOT geral que busca por janelas de HARBITRAGEM DIRETA</h2>
+            <div id="buscaSymbol">
+                <input type="text" placeholder="Buscar por SYMBOL...">
+            </div>
+        </div>
+
+        <table id="tradesTable" border="1">
+            <thead>
+                <tr>
+                    <th>SYMBOL</th>
+                    <th>ONDE COMPRAR</th>
+                    <th>ONDE VENDER</th>
+                    <th>VOLUME COMPRAR</th>
+                    <th>VOLUME VENDER</th>
+                    <th>COMPRAR POR</th>
+                    <th>VENDER POR</th>
+                    <th>LUCRO</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Conteúdo será populado dinamicamente -->
+            </tbody>
+        </table>
+    </main>
+
+    <script type="module" src="js/trades.js"></script>
+    <!-- <script type="module" src="js/Funcoes.js"></script> -->
+</body>
+</html>

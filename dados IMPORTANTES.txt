@@ -1,0 +1,7 @@
+Wrote new keypair to program-keypair.json
+===========================================================================
+pubkey: 6E3B92EBqExUqaBhFh5SvC8LeTn8frRhP3nzdh4btWLN
+===========================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+word regret bounce flight bench laptop weekend matrix high faith tape smart
+===========================================================================
